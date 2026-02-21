@@ -6,6 +6,14 @@ namespace COMP003A.Assignment6
     {
         static void Main(string[] args)
         {
+            /*
+             * This progam displays values of 3 different books. These values include
+             * its title, its page count, and rather the user has completed it or not.
+             * 
+             * The user is able to interact with a menu in order to display these values,
+             * toggle a book as complete, and exit the program.
+             */
+
             Book book1 = new Book("No Longer Human", 177, true);
             Book book2 = new Book("Thus Spoke Zarathustra", 336, false);
             Book book3 = new Book("The Divine Comedy", 895, false);

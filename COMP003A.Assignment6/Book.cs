@@ -3,6 +3,8 @@ using System.ComponentModel;
 
 public class Book
 {
+    // This class models certain attributes of a book.
+
     public string Title;
     public int Page;
     public bool Complete;
@@ -14,11 +16,13 @@ public class Book
         Complete = complete;
     }
 
+    // This method displays the specific value of each attribute.
     public void DisplayValues()
     {
         Console.WriteLine($"Title: {Title}, Page Count: {Page}, Completed: {Complete}");
     }
 
+    // This method toggles a book as complete/incomplete. 
     public void UpdateValue()
     {
         Complete = !Complete;
