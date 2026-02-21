@@ -41,7 +41,7 @@ namespace COMP003A.Assignment6
 
                     case 2:
                         {
-                            Console.Write($"Selete Item (1-3): ");
+                            Console.Write($"Select Item (1-3): ");
                             int item = int.Parse(Console.ReadLine());
                             switch (item)
                             {
